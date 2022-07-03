@@ -11,8 +11,9 @@ return (
     <NavLink  to = "/dialogs" style={({ isActive }) =>({color: isActive ? 'blue' : 'white'})}>  Message</NavLink>
     </div>
     <div  className = {s.item}>
-    <a>  Photo</a>
+    <NavLink  to = "/photo" style={({ isActive }) =>({color: isActive ? 'blue' : 'white'})}>  Photo</NavLink>
     </div>
+    
     <div  className = {s.item}>
     <a>  Music</a>
     </div>

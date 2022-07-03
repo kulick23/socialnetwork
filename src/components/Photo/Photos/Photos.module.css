@@ -1,0 +1,28 @@
+.item{
+    color: red;
+    flex: 1 1 auto;
+  margin: 0 5px;
+        }
+     .item img {
+         width: 300px;
+         height: 300px;
+        
+     }
+     .item button{
+        background-color: white; 
+        border: none;
+        color: black;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        -webkit-transition-duration: 0.4s; 
+        transition-duration: 0.4s;
+        margin: 5px;
+     
+     }
+     .item button:hover {
+        background-color: grey; 
+        color: white;
+    }
